@@ -31,8 +31,6 @@ p{
 
 
 body{
-
-   
     overflow-x:hidden;
     background-color: rgba(75, 70, 73, 0.175);
     background-image: url("/image/bodyBackground/space3.jpg");
@@ -41,8 +39,10 @@ body{
 
 
 /*Welcome*/
-nav {
-    background-color: rgb(156, 146, 38);
+.navbar {
+    background-color: rgba(210, 203, 195, 0.7);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:rgba(142, 38, 100, 0.175)    
 }
 
 
@@ -283,8 +283,7 @@ nav {
     color:rgba(75, 70, 73, 0.521)
 }
 
-
-
-
-
+#arrow:hover{
+    background: linear-gradient(to right, #b79891, #94716b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
